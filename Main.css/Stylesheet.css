@@ -82,6 +82,12 @@ p + p {
   position: relative;
 }
 
+.fleft_column {
+  margin: auto;
+  position: relative;
+  color: #f01c28;
+}
+
 .header_nav{
   background-color: #057f46;
   color: #f01c28;
