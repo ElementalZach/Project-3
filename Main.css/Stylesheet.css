@@ -95,7 +95,7 @@ p + p {
 
 .header_nav{
   background-color: #057f46;
-  color: #f01c28;
+  color: #FFFF5C;
   list-style: none;
   text-align: center;
   padding: 20px 0 20px 0;
@@ -112,7 +112,7 @@ p + p {
 
 .header_nav > li > a{
     text-decoration: none;
-    color: #f01c28;
+    color: #FFFF5C;
 }
 
 .header_nav > li > a:hover {
@@ -149,6 +149,11 @@ h1 {
 .right_column {
   color:#000000;
 }
+
+.fleft_column {
+  color:#FFFF5C;
+}
+
 @media screen and (min-width: 800px) {
   .left_column,
   .right_column {
