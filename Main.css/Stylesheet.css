@@ -128,7 +128,7 @@ a.anchor {
 
 
 h1 {
-  padding-left: 500px;
+
 }
 
 #logo {
@@ -168,14 +168,23 @@ h1 {
   }
 }
 
-
+h1 {
+  margin-bottom: 20px;
+}
 
 .right_column {
   margin-top: 20px;
+  text-align: center;
+
 }
 @media screen and (min-width: 800px) {
   .right_column {
     margin-top: 0;
     width: 35%;
+    text-align: left;
+  }
+
+  h1 {
+    text-align: center;
   }
 }
