@@ -93,6 +93,7 @@ p + p {
   color: #f01c28;
 }
 
+
 .header_nav{
   background-color: #057f46;
   color: #FFFF5C;
@@ -103,11 +104,13 @@ p + p {
   position: fixed;
   top: 0;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  z-index: 99;
 }
 
 .header_nav > li{
     display: inline-block;
     padding-right: 50px;
+    z-index: 1;
 }
 
 .header_nav > li > a{
@@ -126,11 +129,6 @@ a.anchor {
   visibility: hidden;
 }
 
-
-h1 {
-
-}
-
 #logo {
   display: block;
   margin: 0 auto;
@@ -145,6 +143,16 @@ h1 {
   width: 100%;
 }
 
+.SMI {
+  display: block;
+  position: relative;
+  align-items: center;
+}
+
+.MT{
+  float: left;
+  margin-left: 50px;
+}
 .left_column,
 .right_column {
   color:#000000;
@@ -152,6 +160,7 @@ h1 {
 
 .fleft_column {
   color:#FFFF5C;
+  align: center;
 }
 
 @media screen and (min-width: 800px) {
@@ -187,4 +196,8 @@ h1 {
   h1 {
     text-align: center;
   }
+}
+
+.specials {
+
 }
